@@ -1,0 +1,85 @@
+/* Lightning Exercise */
+/* .dark-mode{
+    background-color: rgb(3, 3, 66);
+    color: white;
+}
+
+.jordan-mode{
+    font-size: 3em;
+}
+
+form{
+    height: 50vh;
+    padding: 10vh;
+} */
+
+/* Practice 1: Mirror, Mirror in the Code */
+/* div{
+    display: flex;
+    flex: 50%;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+article{
+    padding: 2vh;
+    width: 10em;
+    border: 1px solid;
+}
+
+#blue-border{
+    border-color: skyblue;
+}
+
+#red-border{
+    border-color: red;
+}
+
+#purple-border{
+    border-color: purple;
+} */
+
+/* Practice 2: Wonder Powers Activate & Challenge 1 */
+/* .disabled {
+    background-color: gray;
+}
+
+.enabled {
+    background-color: fuchsia;
+    color: goldenrod;
+} */
+
+
+/* Challenge: Drag & Drop */
+
+body {
+    padding: 20px;
+    font-family: Helvetica;
+    background-color: #20262e;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(50px, minmax(140px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .stage {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .currentStage {
+    min-height: 100px;
+    border: 1px dotted lightpink;
+    margin-bottom: 15px;
+  }
+  
+  .finishedStage {
+    min-height: 100px;
+    border: 1px dotted lightseagreen;
+    margin-top: 15px;
+  }
+  
